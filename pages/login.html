@@ -1,0 +1,56 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicious Eats--Login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style/login.css">
+    <link rel="stylesheet" href="/style/index.css">
+    <script defer src="/js/contactUs.js"></script>
+</head>
+<body>
+    <main>
+        <nav class="navbar">
+            <img src="/assets/indexlogoPNG.png" alt="logo" class="logo">
+            <ul>
+                <li><a href ="/index.html">Home</a></li>
+                <li><a href ="/pages/receipies.html">Recipes</a></li>
+                <li><a href ="/pages/popular.html">Popular</a></li>
+                <li><a href ="/pages/saved.html">Saved</a></li>
+                <li><a href ="/pages/contact.html">Contact Us</a></li>
+                <li><a style="font-weight: bolder;" href ="/pages/login.html">Log In</a></li>
+            </ul>
+        </nav>
+
+    </main>
+    <div class="container">
+        <form id="form" action="/">
+            <h1>Register</h1>
+            <div class="input-control">
+                <label for="username">User Name</label>
+                <input id="username" name="username" type="text">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="text">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="password">Password</label>
+                <input id="password"name="password" type="password">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="password2">Password again</label>
+                <input id="password2"name="password2" type="password">
+                <div class="error"></div>
+            </div>
+            <button type="submit">Sign Up</button>
+        </form>
+    </div>
+</body>
+</html>

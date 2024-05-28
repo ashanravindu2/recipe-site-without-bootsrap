@@ -1,0 +1,95 @@
+.mainText-content{
+    
+  
+    flex-direction: column;
+    padding: 20px;
+    margin: 20px;
+    background-color: #302e2e;
+    border-radius: 22px;
+    margin-top: 100px;
+    display: flex;
+ 
+
+}
+.mainText-content>h1{
+    color: #ffffff;
+    font-size:32px;
+    font-weight: bold;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.recipe-card>img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 22px;
+    height: 15rem;
+}
+ 
+div.card-group{
+    
+    
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    gap: 2px;
+    
+    
+   
+}
+.card-body{
+    margin:10px;
+    background-color: #201f1f;
+    border-radius: 22px;
+    padding: 20px;
+    width: 25%;
+    
+
+}
+.card-body>img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 22px;
+    height: 50px;
+    
+}
+.card-body:hover.card-body>img{
+    transition: all 1s;
+    height: 10rem;
+    
+}
+
+.card-body>h3{
+    color: #fddc65;
+    font-size: 18px;
+    font-family: monospace;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.card-body>p{
+    color: #ffffff;
+    font-size: 12px;
+    font-family: monospace;
+    text-align: center;
+    margin-top: 10px;
+}
+.card-body>button{
+
+    background-color: #fddc65;
+    border: none;
+    border-radius: 22px;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 12px;
+    font-family: monospace;
+    cursor: pointer;
+    text-align: center;
+    width: 100%;
+    
+}
+.card-body>button:hover{
+    background-color: #121212;
+    color: #fddc65;
+    border: 1px solid #fddc65;
+}
