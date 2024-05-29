@@ -1,0 +1,338 @@
+
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+
+    /* navbar responsive */
+    .navbar>ul{
+        padding: 0%;
+        font-size: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 14px;
+        padding-right: 7%;
+    }
+    .navbar>ul>li>a{
+        padding: 0%;
+        font-size: 9px;
+    }
+    .navbar>img{
+        width: 40px;
+        height: 40px;
+        
+    }
+    .navbar{
+        padding: 0%;
+        border-radius: 10%;
+    }
+
+    .home-content>.title-welcome>h2{
+        font-size: 35px;
+        margin-top: auto;
+    }
+    .main-image>img{
+        margin-top: -32%;
+        
+    }
+    .home-content-text{
+        margin-top: 0%;
+    }
+    .home-content-text>p{
+       font-size: 16px;
+    }
+    .home-content-text>p>span{
+        font-size: 20px;
+     }
+     /* navbar responsive */
+
+     /* receipies page responsive */
+
+       div.mainText-content{
+        margin-top: 10%;
+        margin-bottom: 0%;
+        padding: 0%;
+       }
+
+       div.mainText-content>h1{
+        font-size: 20px;
+       }
+       .recipe-card>img{
+        border-radius: 8px;
+       }
+       .recipe-card>p{
+        font-size: 16px;
+       }
+       div.receipe-title{
+        font-size: 18px;
+       }
+       
+       div.card-body>h2{
+        font-size: 18px;
+       }
+
+       div.card-body>.body{
+        margin-top: 0%;
+         padding:20px;
+
+       }
+
+       div.body>img{
+        width: 100%;
+        height: 100%;
+        border-radius: 8px;
+       }
+       div.body>h2{
+        font-size: 16px;
+       }
+       div.body>ul>li{
+        font-size: 14px;
+       }
+        /* receipies page responsive */
+
+        /* popular page responsive */
+        div.card-group{
+            padding: 0%;
+        }
+        .card-body{
+          padding: 20px;
+          width: auto;
+        }
+        div.card-group>.card-body>img{
+            justify-self: center;
+            width: 90%;
+            height: 50%;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+        .card-group>.card-body>h2{
+            font-size: 16px;
+            margin: -0% 0px;
+        }
+        .card-group>.card-body>p{
+            
+            font-size: 10px;
+            margin: -25% 0% 10% 0%;
+        }
+
+        .card-group>.card-body>button{
+            margin: -0% 0% 0% 0%;
+            padding: 5px 10px;
+            font-size: 12px;
+            height: 30px;
+            width: 100%;
+            border-radius: 8px;
+            justify-self: center;
+            
+        }
+         /* popular page responsive */
+
+          /* saved page responsive */
+
+          div.card-body{
+            padding: 20px;
+            width: auto;
+          }
+          .card-group>.card-body>#Saved-img{
+                justify-self: center;
+                width: 100%;
+                height: 20%;
+                border-radius: 11px;
+          }
+          .card-group>.card-body>p{
+           
+            margin: -0% 0% 10% 0%;
+            
+          }
+
+          /* saved page responsive */
+
+          /* contact page responsive */
+
+          #form{
+          
+            padding: 10%;
+            border-radius: 3%
+            
+          }
+          #form>h1{
+            font-size: 20px;
+          }
+          .input-control>label{
+            font-size: 11px;
+          }
+          .input-control>input{
+            font-size: 10px;
+            width: auto;
+          }
+          #form>button{
+            font-size: 12px;
+            padding: 20px;
+            border-radius: 8px;
+          }
+          div.container{
+            margin-top: 0%;
+            height: 100vh;
+          }
+               /* contact page responsive */
+
+}
+
+@media screen and (min-width: 768px) and (max-width:991px ) {
+
+    /* navbar responsive */
+    .navbar>ul{
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 50px;
+        padding-right: 5%;
+        justify-content: center;
+        align-content: center;
+        
+    }
+    .navbar>ul>li>a{
+        padding: 0%;
+        font-size: 16px;
+    }
+    .navbar>img{
+        width: 15%;
+     
+        
+    }
+    .navbar{
+        padding: 0%;
+        border-radius: 10%;
+    }
+
+    .home-content>.title-welcome>h2{
+        font-size: 50px;
+        margin-top: 5%;
+    }
+    .main-image>img{
+        margin-top: -28%;
+        
+    }
+    .home-content-text{
+        margin-top: 0%;
+    }
+    .home-content-text>p{
+       font-size: 20px;
+    }
+    .home-content-text>p>span{
+        font-size: 32px;
+     }
+
+     /* navbar responsive */
+
+      /* popular page responsive */
+      div.card-group{
+        padding: 0%;
+        margin: 0% 0% 0% 0% ;
+    }
+    .card-body{
+      padding: 20px;
+      width: 30%;
+    }
+    .card-body>img{
+        justify-self: center;
+        width: 100%;
+        height: 70%;
+        border-radius: 8px;
+    }
+    .card-group>.card-body>h2{
+        font-size: 20px;
+        margin: -40% 0px;
+    }
+    .card-group>.card-body>p{
+        
+        font-size: 16px;
+        margin: -10% 0% 10% 0%;
+    }
+
+    .card-group>.card-body>button{
+        margin: -0% 0% 0% 0%;
+        padding: 10px 15px;
+        font-size: 16px;
+        height: 40px;
+        width: 100%;
+        border-radius: 8px;
+        justify-self: center;
+        
+    }
+     /* popular page responsive */
+
+           /* saved page responsive */
+
+           div.card-body{
+            padding: 20px;
+            width: 40%;
+            height: 30%;
+          }
+          .card-group>.card-body>img{
+                justify-self: center;
+                width: 100%;
+                height: 60px;
+                border-radius: 11px;
+          }
+          .card-group>.card-body>p{
+           
+            margin: -0% 0% 10% 0%;
+            
+          }
+
+          
+
+
+          /* saved page responsive */
+ 
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px ) {
+
+    /* navbar responsive */
+    .navbar>ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 50px;
+        padding-right: 10%;
+        justify-content: center;
+        align-content: center;
+        
+    }
+    .navbar>ul>li>a{
+        padding: 0%;
+        font-size: 20px;
+    }
+    .navbar>img{
+        width: 15%;
+     
+        
+    }
+    .navbar{
+        padding: 0%;
+        border-radius: 10%;
+    }
+
+    .home-content>.title-welcome>h2{
+        font-size: 50px;
+        margin-top: 5%;
+    }
+    .main-image>img{
+        margin-top: -28%;
+        
+    }
+    .home-content-text{
+        margin-top: 0%;
+    }
+    .home-content-text>p{
+       font-size: 20px;
+    }
+    .home-content-text>p>span{
+        font-size: 32px;
+     }
+
+     /* navbar responsive */
+}
